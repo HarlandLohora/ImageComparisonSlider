@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  height : 100%;
+  margin : 0;
+  padding: 0;
+  width  : 100%;
+}
+
+.container{
+  height  : 200px;
+  position: relative;
+}
+.imageBox{
+  height  : 200px;
+  overflow: hidden;
+  position: absolute;
+  width   : 300px;
+}
+.imageBox img{
+  display       : block;
+  vertical-align: middle;
+}
+
+.imageBox-slider{
+  background-color: #2196F3;
+  border-radius   : 50%;
+  cursor          : ew-resize;
+  height          : 40px;
+  opacity         : 0.7;
+  position        : absolute;
+  width           : 40px;
+  z-index         : 9;
+}
